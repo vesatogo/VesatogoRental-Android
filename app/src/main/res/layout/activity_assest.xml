@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AssestActivity"
+    >
+
+
+    <!--<Button-->
+    <!--android:id="@+id/dateBtn"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/submit_btn"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:text="@string/pick_date"-->
+    <!--android:theme="@style/ThemeOverlay.MyDarkButton"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/sign_out_button"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_marginBottom="11dp"-->
+    <!--android:text="signout"-->
+    <!--android:theme="@style/ThemeOverlay.MyDarkButton"/>-->
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="107dp"
+            android:text="Select Tractor"
+            android:textSize="25sp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="145dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/hp40"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/hp40"/>
+
+            <ImageButton
+                android:id="@+id/hp50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/hp55"/>
+
+            <ImageButton
+                android:id="@+id/hp60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/hp70"
+                tools:background="@null"/>
+
+        </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="89dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/plough"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/plough"/>
+
+        <ImageButton
+            android:id="@+id/harvester"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/harvester"/>
+
+        <ImageButton
+            android:id="@+id/sprayer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/sprayer"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/implement_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="233dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <ImageButton
+            android:id="@+id/rotavator"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:padding="15dp"
+            app:srcCompat="@drawable/rotavator"/>
+
+        <ImageButton
+            android:id="@+id/cultivator"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:padding="5dp"
+            app:srcCompat="@drawable/cultivator"/>
+
+        <ImageButton
+            android:id="@+id/mulcing"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:srcCompat="@drawable/mulchine"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:onClick="@la"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+    <ImageButton
+        android:id="@+id/sign_out_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/signout"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/sign_out_btn"
+        android:layout_marginStart="119dp"
+        android:text="Vesatogo"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="258dp"
+        android:text="Select Implement"
+        android:textSize="25sp"/>
+
+    <!--<EditText-->
+    <!--android:id="@+id/input_land_size"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_marginBottom="185dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="@string/land_size"-->
+    <!--android:inputType="numberDecimal"-->
+    <!--android:textStyle="bold"/>-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string
+        name="app_name">Vesato
+    </string>
+    <string name="welcome">Welcome</string>
+    <string name="phoneNumber">Enter Phone Number</string>
+    <string name="verfifyNumber">Verify Number</string>
+    <string name="sendSms">Send SMS</string>
+    <string name="verifyBtn">Verify</string>
+    <string name="resend">Resend</string>
+
+    <string-array name="tractor_type">
+        <item>40-45HP</item>
+        <item>51-55HP</item>
+        <item>60-70HP</item>
+    </string-array>
+
+    <string-array name="immplement_type">
+        <item>Rotavator</item>
+        <item>Cultivator</item>
+        <item>Sparyer</item>
+        <item>Harvester</item>
+        <item>Malching Machine</item>
+        <item>Bed Yantra</item>
+        <item>Vakhar</item>
+    </string-array>
+
+    <string-array name="village_list">
+        <item>Nashik</item>
+        <item>Deola</item>
+        <item>Ambe Dindori</item>
+        <item>Shirvadi</item>
+        <item>Mohadi</item>
+        <item>Shivnai</item>
+        <item>Rajewadi</item>
+    </string-array>
+
+    <string name="name_farmer">Name</string>
+    <string name="village_name">Village</string>
+    <string name="mob_number">Mobile Number</string>
+    <string name="land_size">Land Size In Acre</string>
+    <string name="register">Register User</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="duration">Duration(Hrs)</string>
+    <string name="pick_date">Pick Date</string>
+
+</resources>

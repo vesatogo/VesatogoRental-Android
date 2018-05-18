@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderReview"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/order_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="Order Summary"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Want to change?"
+        android:textSize="20sp"
+        android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+    <TextView
+        android:id="@+id/tractor_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:hint="Tractor"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/implement_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="257dp"
+        android:gravity="center"
+        android:hint="Implement"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/land_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:hint="Land Size"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/date_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="248dp"
+        android:gravity="center"
+        android:hint="Selected Date"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/time_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="185dp"
+        android:gravity="center"
+        android:hint="Selected Time"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/duration_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="129dp"
+        android:gravity="center"
+        android:hint="No. of hours"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
